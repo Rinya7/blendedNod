@@ -80,13 +80,13 @@
         </div>
       </section>
       <div data-modal class="backdrop-modal is-hidden">
-        <form
-          class="form-subscribe"
-          name="subscribe"
-          autocomplete="on"
-          novalidate
-        >
-          <div class="modal">
+        <div class="modal">
+          <form
+            class="form-subscribe"
+            name="subscribe"
+            autocomplete="on"
+            novalidate
+          >
             <h1 class="form-title">Order Form</h1>
 
             <label class="label-name">
@@ -118,13 +118,13 @@
             </label>
             <button type="submit" class="btn btn-send">Send</button>
 
-            <button data-modal-close class="btn-close btn">
+            <button data-modal-close class="btn-close btn" type="button">
               <svg width="10" height="10">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

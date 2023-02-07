@@ -253,6 +253,51 @@ body {
 
 /*================ FINISH VITALIY ===============*/
 
+/* ================Menu========== */
+.section-menu {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.titel-menu {
+  font-family: “Roboto”;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #2c2c2c;
+  padding-bottom: 20px;
+}
+.description-menu {
+  font-family: “Roboto”;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #2c2c2c;
+  padding-bottom: 40px;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-box {
+  width: 395px;
+  height: 397px;
+  padding: 41px 40px;
+  overflow: hidden;
+  background: #fefefe;
+  border: 16px solid #ffe550;
+  border-radius: 197.5px;
+}
+.menu-list .item:not(:nth-child(3n)) {
+  margin-right: 32px;
+}
+.menu-list .item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 32px;
+}
+
 /*================ START DMYTRO K ===============*/
 /*================ FINISH DMYTRO K ===============*/
 
@@ -264,7 +309,7 @@ body {
     url(../images/fb6.png), url(../images/fb7.png), url(../images/fb8.png);
   background-repeat: no-repeat;
   /* background-position: bottom left 216px, bottom right 16px, bottom right 134px, bottom left 53px,
-    bottom left 340px, bottom center, bottom right 282px, bottom left 310px; */
+      bottom left 340px, bottom center, bottom right 282px, bottom left 310px; */
   background-position: bottom left 23.82%, bottom right 4.1%,
     bottom right 17.58%, bottom left 11.79%, bottom left 47.11%, bottom center,
     bottom right 25.43%, bottom left 32.88%;
@@ -285,10 +330,10 @@ body {
 }
 
 /* .logo-icon {
-  width: 66px;
-  height: 52px;
-  
-} */
+    width: 66px;
+    height: 52px;
+    
+  } */
 
 .nav-list {
   display: flex;
